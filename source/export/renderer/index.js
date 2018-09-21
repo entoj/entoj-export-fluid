@@ -17,6 +17,15 @@ module.exports =
 
     // Tags
     FluidTagNodeRenderer: require('./FluidTagNodeRenderer.js').FluidTagNodeRenderer,
+    FluidFormTagRenderer: require('./FluidFormTagRenderer.js').FluidFormTagRenderer,
+    FluidFormInputTagRenderer: require('./FluidFormInputTagRenderer.js').FluidFormInputTagRenderer,
+    FluidFormSelectTagRenderer: require('./FluidFormSelectTagRenderer.js').FluidFormSelectTagRenderer,
+    FluidFormOptionTagRenderer: require('./FluidFormOptionTagRenderer.js').FluidFormOptionTagRenderer,
+    FluidFormTextareaTagRenderer: require('./FluidFormTextareaTagRenderer.js').FluidFormTextareaTagRenderer,
+    FluidFormRadioTagRenderer: require('./FluidFormRadioTagRenderer.js').FluidFormRadioTagRenderer,
+    FluidFormCheckboxTagRenderer: require('./FluidFormCheckboxTagRenderer.js').FluidFormCheckboxTagRenderer,
+    FluidLinkTagRenderer: require('./FluidLinkTagRenderer.js').FluidLinkTagRenderer,
+    FluidButtonTagRenderer: require('./FluidButtonTagRenderer.js').FluidButtonTagRenderer,
 
     // Standards
     FluidArrayNodeRenderer: require('./FluidArrayNodeRenderer.js').FluidArrayNodeRenderer,
@@ -59,6 +68,15 @@ module.exports =
         require('./FluidLengthFilterRenderer.js').FluidLengthFilterRenderer,
 
         // Tags
+        require('./FluidFormInputTagRenderer.js').FluidFormInputTagRenderer,
+        require('./FluidFormTagRenderer.js').FluidFormTagRenderer,
+        require('./FluidFormSelectTagRenderer.js').FluidFormSelectTagRenderer,
+        require('./FluidFormOptionTagRenderer.js').FluidFormOptionTagRenderer,
+        require('./FluidFormRadioTagRenderer.js').FluidFormRadioTagRenderer,
+        require('./FluidFormTextareaTagRenderer.js').FluidFormTextareaTagRenderer,
+        require('./FluidFormCheckboxTagRenderer.js').FluidFormCheckboxTagRenderer,
+        require('./FluidLinkTagRenderer.js').FluidLinkTagRenderer,
+        require('./FluidButtonTagRenderer.js').FluidButtonTagRenderer,
         require('./FluidTagNodeRenderer.js').FluidTagNodeRenderer,
 
         // Standards

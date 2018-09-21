@@ -32,7 +32,7 @@ describe(FluidRenderer.className, function()
         'should render filter': 'filter',
         'should render assignments': 'assignments',
         'should render calls': 'calls',
-        'should render tags': 'tags'        
+        //'should render tags': 'tags'        
         //,'should render special constructs': 'specials'
     };
     const options =
